@@ -2,7 +2,12 @@ Source: evrouter
 Section: utils
 Priority: optional
 Maintainer: Alexios Chouchoulas <alexios@bedroomlan.org>
-Build-Depends: debhelper (>= 9), dh-autoreconf, autotools-dev
+Build-Depends:
+ debhelper (>= 9),
+ dh-autoreconf,
+ autotools-dev,
+ libx11-dev,
+ libxtst-dev
 Standards-Version: 3.9.5
 Homepage: http://www.bedroomlan.org/projects/evrouter
 

@@ -1,3 +1,9 @@
+evrouter (0.4+benley2) unstable; urgency=medium
+
+  * Add build-depends on libx11-dev, libxtst-dev
+
+ -- Benjamin Staffin <benley@gmail.com>  Fri, 26 Dec 2014 16:45:40 -0800
+
 evrouter (0.4+benley1) unstable; urgency=medium
 
   [ Lars Magne Ingebrigtsen ]
