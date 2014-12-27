@@ -2,15 +2,15 @@ Source: evrouter
 Section: utils
 Priority: optional
 Maintainer: Alexios Chouchoulas <alexios@bedroomlan.org>
-Build-Depends: debhelper (>= 7), autotools-dev
-Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 9), dh-autoreconf, autotools-dev
+Standards-Version: 3.9.5
 Homepage: http://www.bedroomlan.org/projects/evrouter
 
 Package: evrouter
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: xmms
-Description: An input layer event router for Linux
+Description: Input layer event router for Linux
  Evrouter reads events from the Linux input layer, and, based on a  user-
  specified set of rules, acts on them. Currently, evrouter can map events
  to X11 key and button presses, XMMS commands, and can also run shell

@@ -1,3 +1,19 @@
+evrouter (0.4ubuntu1~1.gbp18642f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @18642f1682b0823b589845f6bd0305419fad212a **
+
+  [ Lars Magne Ingebrigtsen ]
+  * [a87ff4a] Allow listening to all mouse button movements.
+  * [7fb8a42] Add missing config files
+  * [4ae83ba] Regenerated configure.
+
+  [ Chris Dunder ]
+  * [18642f1] Fixed build breakage
+
+  [ Benjamin Staffin ]
+
+ -- Benjamin Staffin <benley@gmail.com>  Fri, 26 Dec 2014 16:04:23 -0800
+
 evrouter (0.4) unstable; urgency=low
 
   * Incorporated patch www.digriz.org.uk.
