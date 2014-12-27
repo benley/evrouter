@@ -1,6 +1,4 @@
-evrouter (0.4ubuntu1~1.gbp18642f) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @18642f1682b0823b589845f6bd0305419fad212a **
+evrouter (0.4+benley1) unstable; urgency=medium
 
   [ Lars Magne Ingebrigtsen ]
   * [a87ff4a] Allow listening to all mouse button movements.
@@ -11,6 +9,7 @@ evrouter (0.4ubuntu1~1.gbp18642f) UNRELEASED; urgency=medium
   * [18642f1] Fixed build breakage
 
   [ Benjamin Staffin ]
+  * [cf9a341] Clean up and modernize Debian build
 
  -- Benjamin Staffin <benley@gmail.com>  Fri, 26 Dec 2014 16:04:23 -0800
 
